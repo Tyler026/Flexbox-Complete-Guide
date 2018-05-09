@@ -1,7 +1,7 @@
 # Flexbox-Complete-Guide
 
 ### Main Axis
-* Horzantal
+* Horizantal
 
 ### Cross Axis
 * Vertical
