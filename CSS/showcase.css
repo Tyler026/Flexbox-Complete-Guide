@@ -2,11 +2,11 @@
   color: #fff;
   text-shadow: 1px 1px 0 #000;
   box-sizing: border-box;
-  font-family: PT+Sans, sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 html {
-  background: -webkit-linear-gradient(top, rgba(31,59,8,1) 0%,rgba(98,125,77,1) 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(-10deg, #772953, #e95420);
   min-height: 100vh;
   font-size: 18px;
 }
@@ -70,37 +70,31 @@ a:hover {
 }
 
 .full {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 100%;
-          flex: 0 1 100%;
+  width: 100%; /* IE */
+  flex: 0 1 100%;
 }
 
 .half {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 2 calc(50% - 20px);
-          flex: 0 2 calc(50% - 20px);
+  width: 49%; /* IE */
+  flex: 0 2 calc(50% - 20px);
 }
 
 .third {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 calc(33.333333% - 20px);
-          flex: 0 1 calc(33.333333% - 20px);
+  width: 32.2%; /* IE */
+  flex: 0 1 calc(33.333333% - 20px);
 }
 
 .fourth {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 calc(25% - 20px);
-          flex: 0 1 calc(25% - 20px);
+  width: 24%; /* IE */
+  flex: 0 1 calc(25% - 20px);
 }
 
 .fifth {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 calc(20% - 20px);
-          flex: 0 1 calc(20% - 20px);
+  width: 19.5%; /* IE */
+  flex: 0 1 calc(20% - 20px);
 }
 
 .sixth {
-  -webkit-box-flex: 0;
-      -ms-flex: 0 1 calc(16.666666% - 20px);
-          flex: 0 1 calc(16.666666% - 20px);
+  width: 15.7%; /* IE */
+  flex: 0 1 calc(16.666666% - 20px);
 }
