@@ -7,7 +7,7 @@
 * Vertical
 
 ### Flex Containers
-* Flow Direction
+* [Flow Direction](https://github.com/Tyler026/Flexbox-Complete-Guide/blob/Flex-Direction/CSS/flexdirection.css)
 * Justify
 * Align Items
 * Flex Wrap
