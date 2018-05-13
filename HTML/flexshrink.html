@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Flex Shrink</title>
+        <link rel="stylesheet" href="../CSS/base.css">
+        <link rel="stylesheet" href="../CSS/flexshrink.css">
+        <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    </head>
+
+    <body>
+        <h2>Property: <code>flex-shrink</code></h2>
+
+        <p>Default: <code>flex-shrink: 1</code> (flex items are allowed to some degree)</p>
+        <div class="container" >
+            <div>flex-<br>shrink: 1</div>
+            <div>flex-<br>shrink: 1</div>
+            <div>flex-<br>shrink: 1</div>
+            <div>flex-<br>shrink: 1</div>
+        </div>
+
+        <p>3, 4, and 5 are no longer allowed to shrink (<code>flex-shrink: 0</code>)</p>
+        <div class="shrink1 container" >
+            <div>flex-<br>shrink: 1</div>
+            <div>flex-<br>shrink: 1</div>
+            <div>flex-<br>shrink: 0</div>
+            <div>flex-<br>shrink: 0</div>
+            <div>flex-<br>shrink: 0</div>
+            <div>flex-<br>shrink: 1</div>
+        </div>
+
+        <p>3 and 4 are allowed to shrink more compared to other flex itmes</p>
+        <div class="shrink2 container" >
+            <div>flex-<br>shrink: 1</div>
+            <div>flex-<br>shrink: 1</div>
+            <div>flex-<br>shrink: 5</div>
+            <div>flex-<br>shrink: 1</div>
+            <div>flex-<br>shrink: 1</div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,5 @@
+.container {
+    flex-wrap: nowrap;
+    border: 1px solid #fff;
+    border-radius: 2px;
+  }
